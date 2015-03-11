@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DNAToRNA()
+comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ DNAToRNA\n
+comment1.params=pDNA\ codogen
+comment1.target=java.lang.String\ transcriptDNAToRNA(java.lang.String,\ boolean)
+comment1.text=\n\ \n\ @param\ \ pDNA\ erwartet\ eine\ DNA-Strang\n\ @param\ \ codogen\ ist\ true,\ wenn\ es\ sich\ um\ einen\ codogenen\ Strang\ handelt,\ sonst\ false\n\ @return\ gibt\ die\ dazugeh\u00F6rige\ RNA\ als\ String\ zur\u00FCck\n
+numComments=2

@@ -2,32 +2,63 @@
 /**
  * Beschreiben Sie hier die Klasse DNAToRNA.
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author Thomas Konnemann
+ * @version 11.3.2015
  */
 public class DNAToRNA
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    private int x;
 
     /**
      * Konstruktor für Objekte der Klasse DNAToRNA
      */
     public DNAToRNA()
     {
-        // Instanzvariable initialisieren
-        x = 0;
+
     }
 
     /**
-     * Ein Beispiel einer Methode - ersetzen Sie diesen Kommentar mit Ihrem eigenen
      * 
-     * @param  y    ein Beispielparameter für eine Methode
-     * @return        die Summe aus x und y
+     * @param  pDNA erwartet eine DNA-Strang
+     * @param  codogen ist true, wenn es sich um einen codogenen Strang handelt, sonst false
+     * @return gibt die dazugehörige RNA als String zurück
      */
-    public int beispielMethode(int y)
+    public String transcriptDNAToRNA(String pDNA, boolean codogen)
     {
-        // tragen Sie hier den Code ein
-        return x + y;
+        String rawDNA = pDNA;
+        String rna;
+        if (codogen==true)
+        {
+            rawDNA = rawDNA.toUpperCase();
+            char[] arrayDNA = rawDNA.toCharArray();
+            for (int i = 0, n = arrayDNA.length; i < n; i++)
+            {
+                switch(arrayDNA[i])
+                {
+                    case 'A' : arrayDNA[i]='U';
+                        break;
+                    case 'G' : arrayDNA[i]='C';
+                        break;
+                    case 'T' : arrayDNA[i]='A';
+                        break;
+                    case 'C' : arrayDNA[i]='G';
+                        break;
+                    
+                }
+            }
+            //rawDNA = rawDNA.replace('A', 'U');
+            //rawDNA = rawDNA.replace('G', 'C');
+            //rawDNA = rawDNA.replace('T', 'A');
+            //rawDNA = rawDNA.replace('C', 'G');
+            rna = String.valueOf(arrayDNA);
+            return rna;
+        }
+
+        if (codogen==false)
+        {
+            rawDNA = rawDNA.toUpperCase();
+            rna = rawDNA.replace('T', 'U');
+            return rna;
+        }
+        return "Keine korrekte DNA gefunden";
     }
 }
