@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TranslateRNATripletToAmminoacid()
+comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ TranslateRNATripletToAmminoaccid\n
+comment1.params=pRNA
+comment1.target=java.lang.String\ RNAToAmminoacid(java.lang.String)
+comment1.text=\n\ Ein\ Beispiel\ einer\ Methode\ -\ ersetzen\ Sie\ diesen\ Kommentar\ mit\ Ihrem\ eigenen\n\ \n\ @param\ \ pRNA\ \ \ Methode\ erwartet\ ein\ Tripplet\ an\ RNA\n\ @return\ \ \ \ \ \ \ \ gibt\ die\ zugeh\u00F6rige\ Amminos\u00E4ure\ zur\u00FCck\n
+numComments=2
