@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DNAValidation()
+comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ DNAValidation\n
+comment1.params=pDNA
+comment1.target=boolean\ validiereDNA(java.lang.String)
+comment1.text=\n\ Die\ Methode\ validiert\ DNA.\ Sie\ \u00FCberpr\u00FCft\ einen\ String\ und\ liefert\ true\ zur\u00FCck,\ \n\ wenn\ es\ sich\ um\ eine\ valide\ DNA\ handelt.\n\ \n\ @param\ \ pDNA\ \ \ ein\ String\ der\ eine\ DNA\ beinhaltet\n\ @return\ \ \ \ \ \ \ \ true,\ wenn\ es\ sich\ um\ eine\ valide\ DNA\ handelt,\ sonst\ false\n
+numComments=2
