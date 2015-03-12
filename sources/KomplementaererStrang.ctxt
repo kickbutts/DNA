@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=KomplementaererStrang()
+comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ KomplementaererStrang\n
+comment1.params=pStrang
+comment1.target=java.lang.String\ erstelleKomplementaerenStrand(java.lang.String)
+comment1.text=\n\ Ein\ Beispiel\ einer\ Methode\ -\ ersetzen\ Sie\ diesen\ Kommentar\ mit\ Ihrem\ eigenen\n\ \n\ @param\ \ y\ \ \ \ ein\ Beispielparameter\ f\u00FCr\ eine\ Methode\n\ @return\ \ \ \ \ \ \ \ die\ Summe\ aus\ x\ und\ y\n
+numComments=2
