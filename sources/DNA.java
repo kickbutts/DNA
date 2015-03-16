@@ -63,4 +63,19 @@ public class DNA
             amminosaeuersequenz=amminosaeuersequenz+translation.RNAToAmminoacid(triplet)+" ";
         }
     }
+    
+    public String getDNA()
+    {
+        return DNAcodogenerStrang;
+    }
+    
+    public String getRNA()
+    {
+        return RNA;
+    }
+    
+    public String getAmminosaeuersequenz()
+    {
+        return amminosaeuersequenz;
+    }
 }
