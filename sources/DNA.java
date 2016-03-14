@@ -46,13 +46,7 @@ public class DNA
             System.out.println("Keine valide DNA Sequenz eingegeben");
         }
     }
-
-    /**
-     * Ein Beispiel einer Methode - ersetzen Sie diesen Kommentar mit Ihrem eigenen
-     * 
-     * @param  y    ein Beispielparameter für eine Methode
-     * @return        die Summe aus x und y
-     */
+    
     public void inTrippletsSchneidenUndASSequeznZusammensetzen()
     {
         String copyOfRNA=RNA;

@@ -4,7 +4,6 @@ comment0.target=DNA(java.lang.String,\ boolean)
 comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ DNA\n
 comment1.params=
 comment1.target=void\ inTrippletsSchneidenUndASSequeznZusammensetzen()
-comment1.text=\n\ Ein\ Beispiel\ einer\ Methode\ -\ ersetzen\ Sie\ diesen\ Kommentar\ mit\ Ihrem\ eigenen\n\ \n\ @param\ \ y\ \ \ \ ein\ Beispielparameter\ f\u00FCr\ eine\ Methode\n\ @return\ \ \ \ \ \ \ \ die\ Summe\ aus\ x\ und\ y\n
 comment2.params=
 comment2.target=java.lang.String\ getDNA()
 comment3.params=
