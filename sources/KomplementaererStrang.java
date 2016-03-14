@@ -18,12 +18,6 @@ public class KomplementaererStrang
        
     }
 
-    /**
-     * Ein Beispiel einer Methode - ersetzen Sie diesen Kommentar mit Ihrem eigenen
-     * 
-     * @param  y    ein Beispielparameter für eine Methode
-     * @return        die Summe aus x und y
-     */
     public String erstelleKomplementaerenStrand(String pStrang)
     {
         char[] arrayDNA = pStrang.toCharArray();
